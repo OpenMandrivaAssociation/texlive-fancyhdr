@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/fancyhdr
+# catalog-date 2009-01-10 12:36:34 +0100
+# catalog-license lppl
+# catalog-version 3.1
 Name:		texlive-fancyhdr
 Version:	3.1
 Release:	1
@@ -43,6 +49,7 @@ the heading style in use).
 %doc %{_texmfdistdir}/doc/latex/fancyhdr/README
 %doc %{_texmfdistdir}/doc/latex/fancyhdr/fancyhdr.pdf
 %doc %{_texmfdistdir}/doc/latex/fancyhdr/fancyhdr.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ the heading style in use).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
