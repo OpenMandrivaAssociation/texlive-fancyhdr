@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 3.1
 Name:		texlive-fancyhdr
-Version:	3.1
-Release:	10
+Version:	3.9a
+Release:	1
 Summary:	Extensive control of page headers and footers in LaTeX2e
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fancyhdr
