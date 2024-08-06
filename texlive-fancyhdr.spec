@@ -1,5 +1,5 @@
 Name:		texlive-fancyhdr
-Version:	71064
+Version:	71883
 Release:	1
 Summary:	Extensive control of page headers and footers in LaTeX2e
 Group:		Publishing
