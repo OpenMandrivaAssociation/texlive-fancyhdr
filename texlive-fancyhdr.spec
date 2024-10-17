@@ -3,7 +3,7 @@ Version:	71883
 Release:	1
 Summary:	Extensive control of page headers and footers in LaTeX2e
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fancyhdr
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/fancyhdr
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fancyhdr.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fancyhdr.doc.r%{version}.tar.xz
